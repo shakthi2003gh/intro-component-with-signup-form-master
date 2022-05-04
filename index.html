@@ -32,21 +32,27 @@
         </button>
 
         <form class="form">
-          <div class="error-image error"></div>
-          <input type="text" placeholder="First Name" />
-          <div class="error-message error">First Name cannot be empty</div>
+          <div class="error-image"></div>
+          <input id="first-name" type="text" placeholder="First Name" />
+          <div class="error-message">First Name cannot be empty</div>
 
           <div class="error-image"></div>
-          <input type="text" placeholder="Last Name" />
+          <input id="last-name" type="text" placeholder="Last Name" />
           <div class="error-message">last Name cannot be empty</div>
 
           <div class="error-image"></div>
-          <input type="email" placeholder="Email Address" />
+          <input id="email" type="email" placeholder="Email Address" />
           <div class="error-message">Looks like this is not email</div>
 
-          <div class="error-image error"></div>
-          <input type="password" placeholder="Password" />
-          <div class="error-message error">Password cannot be empty</div>
+          <div class="error-image"></div>
+          <input
+            id="password"
+            type="password"
+            minlength="4"
+            maxlength="20"
+            placeholder="Password"
+          />
+          <div class="error-message">Password cannot be empty</div>
 
           <button type="submit" class="button button--primary">
             Claim your free trial
@@ -59,5 +65,6 @@
         </form>
       </div>
     </main>
+    <script src="/index.js"></script>
   </body>
 </html>
