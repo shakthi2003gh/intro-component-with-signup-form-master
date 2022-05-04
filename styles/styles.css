@@ -1,1 +1,31 @@
 @import url(/styles/normalize.css);
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+/* color palette */
+:root {
+  --color-label: hsl(249, 10%, 26%);
+  --color-text: hsl(246, 25%, 77%);
+
+  --color-bg: hsl(0, 100%, 74%);
+  --color-primary-button: hsl(154, 59%, 51%);
+  --color-secondary-button: hsl(248, 32%, 49%);
+}
+
+/* Typography */
+body {
+  font-size: 1.6rem;
+  font-family: "Poppins", sans-serif;
+  color: white;
+  text-align: center;
+  background-color: var(--color-bg);
+  background-image: url(/images/bg-intro-mobile.png);
+}
