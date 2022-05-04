@@ -22,10 +22,31 @@ html {
 
 /* Typography */
 body {
-  font-size: 1.6rem;
-  font-family: "Poppins", sans-serif;
-  color: white;
-  text-align: center;
   background-color: var(--color-bg);
   background-image: url(/images/bg-intro-mobile.png);
+  color: white;
+  font-family: "Poppins", sans-serif;
+  font-size: 1.6rem;
+  text-align: center;
+}
+
+h1 {
+  margin-bottom: 2rem;
+  font-size: 2.8rem;
+  line-height: 2.1ch;
+}
+
+p {
+  font-size: 1.5rem;
+  line-height: 2.6ch;
+}
+
+/* blocks */
+main {
+  margin: 2rem;
+  display: grid;
+}
+
+.text-content {
+  margin: 7.2rem 0 5rem;
 }
