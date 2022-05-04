@@ -32,13 +32,26 @@
         </button>
 
         <form class="form">
+          <div class="error-image error"></div>
           <input type="text" placeholder="First Name" />
+          <div class="error-message error">First Name cannot be empty</div>
+
+          <div class="error-image"></div>
           <input type="text" placeholder="Last Name" />
+          <div class="error-message">last Name cannot be empty</div>
+
+          <div class="error-image"></div>
           <input type="email" placeholder="Email Address" />
+          <div class="error-message">Looks like this is not email</div>
+
+          <div class="error-image error"></div>
           <input type="password" placeholder="Password" />
+          <div class="error-message error">Password cannot be empty</div>
+
           <button type="submit" class="button button--primary">
             Claim your free trial
           </button>
+
           <p class="TnC">
             By clicking the button, you are agreeing to our
             <b>Terms and Services</b>
